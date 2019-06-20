@@ -258,3 +258,9 @@ confirmButtonText: '确定'
  }
 })
 ```
+
+> ## **5.ElementUI绑定vue原生事件**
+> 需要添加.native否则不生效：<br/>
+```
+<el-input v-model="id" placeholder="ID" @keyup.enter.native="handleClick"></el-input>
+```
