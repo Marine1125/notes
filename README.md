@@ -19,21 +19,37 @@ $ git push -u origin master<br/>
 
 > ## git常用语法
 > 查看远程仓库：
+```
 $ git remote -v
+```
 添加远程仓库：
+```
 $ git remote add [name] [url]
+```
 删除远程仓库：
+```
 $ git remote rm [name]
+```
 修改远程仓库：
+```
 $ git remote set-url --push [name] [newUrl]
+```
 拉取远程仓库：
+```
 $ git pull [remoteName] [localBranchName]
+```
 推送远程仓库：
+```
 $ git push [remoteName] [localBranchName]
+```
 是将当前更改或者新增的文件加入到Git的索引中：
+```
 $ git add [fileName]
+```
 提交当前工作空间的修改内容
+```
 $ git commit -m ["description"]
+```
 创建仓库的方式：
 方法一：先在github上创建仓库，然后在用 git clone的方式克隆到本地
 方法二：现在本地创建仓库，然后上传到github上

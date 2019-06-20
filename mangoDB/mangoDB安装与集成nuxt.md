@@ -1,8 +1,10 @@
-**mangoDB集成nuxt**
+**mongoDB集成nuxt**
 =====
 
 > ## **1.安装依赖**
-`npm install mongoose`
+```
+npm install mongoose
+```
 > ## **2.配置文件**
 ```
 export default {
