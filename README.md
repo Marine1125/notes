@@ -53,3 +53,8 @@ $ git commit -m ["description"]
 创建仓库的方式：
 方法一：先在github上创建仓库，然后在用 git clone的方式克隆到本地
 方法二：现在本地创建仓库，然后上传到github上
+如何提交代码：
+第一步：git add ./*
+第二步：git commit -m '测试提交'
+第三步：git push 
+
